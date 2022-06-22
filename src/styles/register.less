@@ -1,0 +1,329 @@
+body {
+  width: 1519.2px;
+  box-sizing: border-box;
+  height: 700px;
+  color: #000;
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+.header {
+  width: 990px;
+  height: 35px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  .reg {
+    float: left;
+    padding: 0 6px;
+    > a {
+      display: inline-block;
+      width: 60px;
+      height: 35px;
+      line-height: 35px;
+      margin-right: 7px;
+      color: #6c6c6c;
+      &:last-child {
+        width: 48px;
+      }
+    }
+    .active {
+      color: #f22e00;
+    }
+  }
+  .phonetb,
+  .webacc {
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 6px;
+    color: #6c6c6c;
+  }
+  ul {
+    float: right;
+    li {
+      float: left;
+      padding: 0 10px;
+      position: relative;
+      .icon-gouwuche {
+        color: #f40;
+      }
+      .icon-shoucang {
+        color: #9c9c9c;
+        font-weight: 900;
+      }
+      a {
+        display: inline-block;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+      }
+      .dropD {
+        position: absolute;
+        right: 0px;
+        top: 18px;
+        width: 0;
+        height: 0;
+        border-width: 3px;
+        border-style: solid dashed dashed;
+        border-color: #bbb transparent transparent;
+      }
+      &:hover .dropD {
+        transform: rotateX(180deg);
+        position: absolute;
+        right: 0px;
+        top: 8px;
+      }
+    }
+  }
+}
+
+.navreg {
+  width: 990px;
+  height: 83px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #3c3c3c;
+  h1 {
+    float: left;
+    width: 106px;
+    height: 43px;
+    position: relative;
+    .icon-taobaowang {
+      position: absolute;
+      top: -12px;
+      font-size: 36px;
+      font-weight: 400;
+      color: #ff4001;
+    }
+    .icon-taobao {
+      position: absolute;
+      top: -2px;
+      font-size: 50px;
+      font-weight: 400;
+      color: #ff4001;
+    }
+  }
+  h2 {
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    margin-left: 8px;
+    font-size: 22px;
+    font-family: '\5FAE\8F6F\96C5\9ED1', '\534E\6587\7EC6\9ED1', '\9ED1\4F53', arial;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+}
+
+.container {
+  width: 990px;
+  height: 458px;
+  margin: 0 auto;
+  padding: 50px 0 0;
+  border-bottom: 1px solid #ddd;
+  .cblank {
+    width: 990px;
+    height: 83px;
+    box-sizing: border-box;
+    padding: 20px 0;
+  }
+  .reg-form {
+    width: 380px;
+    height: 305px;
+    margin: 10px auto 0;
+    .tel {
+      width: 380px;
+      height: 36px;
+      .cot1 {
+        float: left;
+        font-size: 14px;
+        margin-right: 4px;
+        color: #111;
+        height: 36px;
+        line-height: 36px;
+      }
+      .telp {
+        float: left;
+        width: 308px;
+        height: 34px;
+        min-height: 34px;
+        border: 1px solid #d6d6d6;
+        border-radius: 3px;
+        .area {
+          display: inline-block;
+          width: 127px;
+          height: 34px;
+          box-sizing: border-box;
+          padding: 0 10px;
+          line-height: 34px;
+          font-size: 14px;
+          color: #000;
+          border-right: 1px solid #d6d6d6;
+        }
+      }
+    }
+
+    .yanzm {
+      width: 380px;
+      height: 36px;
+      margin-top: 20px;
+      .cot2 {
+        float: left;
+        font-size: 14px;
+        margin-right: 4px;
+        color: #111;
+        width: 57.6px;
+        height: 36px;
+        text-align: right;
+        line-height: 36px;
+      }
+      .yanzem {
+        float: left;
+        width: 308px;
+        height: 34px;
+        min-height: 34px;
+        border: 1px solid #d6d6d6;
+        border-radius: 3px;
+        input {
+          float: left;
+          width: 231px;
+          height: 30px;
+          text-indent: 3px;
+          line-height: 30px;
+          padding: 2px 0 2px 0;
+        }
+        .yanzzm {
+          float: left;
+          width: 72px;
+          height: 30px;
+          line-height: 30px;
+          color: #ff5000;
+          font-size: 14px;
+          padding: 2px 0 2px 0;
+        }
+      }
+    }
+
+    .btn {
+      width: 310px;
+      height: 36px;
+      margin: 50px auto 60px;
+      box-sizing: border-box;
+      margin-left: 60px;
+      opacity: 0.5;
+      border-radius: 3px;
+      background-image: linear-gradient(90deg, #f90, #ff5000);
+      a {
+        width: 320px;
+        height: 36px;
+        span {
+          display: block;
+          width: 100%;
+          color: #fff;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+    }
+
+    .regcon {
+      width: 310px;
+      height: 34px;
+      margin: 0 60px;
+      input {
+        display: inline-block;
+        vertical-align: top;
+        width: 14px;
+      }
+      p {
+        display: inline-block;
+        width: 285px;
+        height: 34px;
+        color: #666;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+        line-height: 16px;
+        > a {
+          font-size: 13px;
+          color: #ff5000;
+        }
+      }
+      > a {
+        display: inline-block;
+        width: 310px;
+        text-align: right;
+        font-size: 12px;
+        color: #ff5000;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 990px;
+  margin: 0 auto;
+  .footer-hd {
+    p {
+      height: 27px;
+      margin-bottom: 8px;
+      line-height: 27px;
+      border-bottom: 1px solid #ddd;
+      a {
+        float: left;
+        color: #6c6c6c;
+        line-height: 27px;
+        margin: 0 4px;
+      }
+      b {
+        float: left;
+        margin: 0 3px;
+        font-weight: 400;
+        color: #ddd;
+      }
+    }
+  }
+  .footer-bd {
+    p {
+      &:nth-child(1) {
+        height: 27px;
+        line-height: 27px;
+        a {
+          float: left;
+          color: #6c6c6c;
+          line-height: 27px;
+          margin: 0 4px;
+        }
+        em {
+          float: left;
+          color: #9c9c9c;
+          line-height: 27px;
+          margin-left: 30px;
+        }
+      }
+      &:nth-child(2) {
+        height: 27px;
+        line-height: 27px;
+        margin-bottom: 8px;
+        span {
+          float: left;
+          line-height: 27px;
+          color: #9c9c9c;
+          a {
+            line-height: 27px;
+            color: #000;
+          }
+        }
+        b {
+          float: left;
+          line-height: 27px;
+          color: #ddd;
+          margin: 0 3px;
+        }
+      }
+    }
+  }
+  .footer-toy {
+    height: 5px;
+  }
+}
