@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,310 +9,337 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/iconfont.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-</head>
+    <script src="./js/index.js" type="module"></script>
+  </head>
 
-<body class="bcurl">
+  <body class="bcurl">
     <!-- header -->
     <header class="header">
-        <div class="container clearfix">
-            <ul class="hr-lf">
-                <li>
-                    <a href="#"><span class="iconfont icon-fangjian"></span>天猫首页</a>
-                </li>
-                <li>喵,欢迎来天猫</li>
-                <li><a href="#">请登录</a></li>
-                <li><a href="#">免费注册</a></li>
-            </ul>
-            <ul class="hr-rg">
-                <li class="hrrg1">
-                    <a href="#" class="active">
+      <div class="container clearfix">
+        <ul class="hr-lf">
+          <li>
+            <a href="#"><span class="iconfont icon-fangjian"></span>天猫首页</a>
+          </li>
+          <li>喵,欢迎来天猫</li>
+          <li><a href="./login.html">请登录</a></li>
+          <li><a href="./register.html">免费注册</a></li>
+        </ul>
+        <ul class="hr-rg">
+          <li class="hrrg1">
+            <a href="#" class="active">
               我的淘宝
               <p class="dropD"></p>
             </a>
-                    <div class="mianinfo">
-                        <a href="#">已买到的宝贝</a>
-                        <a href="#">已卖出的宝贝</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#"><span class="iconfont icon-gouwuche"></span>购物车</a>
-                </li>
-                <li class="hrrg2">
-                    <a href="#" class="active">
+            <div class="mianinfo">
+              <a href="#">已买到的宝贝</a>
+              <a href="#">已卖出的宝贝</a>
+            </div>
+          </li>
+          <li>
+            <a href="./shopping.html"><span class="iconfont icon-gouwuche"></span>购物车</a>
+          </li>
+          <li class="hrrg2">
+            <a href="#" class="active">
               收藏夹
               <p class="dropD"></p>
             </a>
-                    <div class="mianinfo">
-                        <a href="#">收藏的宝贝</a>
-                        <a href="#">收藏的店铺</a>
-                    </div>
-                </li>
-                <li><em>|</em></li>
-                <li class="hrrg3">
-                    <a href="#"> <span class="iconfont icon-shouji"></span> 手机版 </a>
-                    <div class="phoneicon">
-                        <i></i>
-                        <img src="./img/phone.png" alt="" />
-                    </div>
-                </li>
-                <li><a href="#">淘宝网</a></li>
-                <li><a href="#">网页无障碍</a></li>
-                <li class="hrrg4">
-                    <a href="#" class="active">
+            <div class="mianinfo">
+              <a href="#">收藏的宝贝</a>
+              <a href="#">收藏的店铺</a>
+            </div>
+          </li>
+          <li><em>|</em></li>
+          <li class="hrrg3">
+            <a href="#"> <span class="iconfont icon-shouji"></span> 手机版 </a>
+            <div class="phoneicon">
+              <i></i>
+              <img src="./img/phone.png" alt="" />
+            </div>
+          </li>
+          <li><a href="#">淘宝网</a></li>
+          <li><a href="#">网页无障碍</a></li>
+          <li class="hrrg4">
+            <a href="#" class="active">
               商家支持
               <p class="dropD"></p>
             </a>
-                    <div class="shangjfw">
-                        <div class="hrrgt">
-                            <h3>商家:</h3>
-                            <a href="#">商家中心</a>
-                            <a href="#" class="clearkj">天猫规则</a>
-                            <a href="#">商家入驻</a>
-                            <a href="#" class="clearkj">运营服务</a>
-                            <a href="#">商家品控</a>
-                            <a href="#" class="clearkj">商家工具</a>
-                            <a href="#">天猫智库</a>
-                            <a href="#" class="clearkj">喵言喵语</a>
-                        </div>
-                        <div class="hrrgb">
-                            <h3>帮助:</h3>
-                            <a href="#">商家服务大厅</a>
-                            <a href="#">问商友</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="#">商家中心</a></li>
-            </ul>
-        </div>
+            <div class="shangjfw">
+              <div class="hrrgt">
+                <h3>商家:</h3>
+                <a href="#">商家中心</a>
+                <a href="#" class="clearkj">天猫规则</a>
+                <a href="#">商家入驻</a>
+                <a href="#" class="clearkj">运营服务</a>
+                <a href="#">商家品控</a>
+                <a href="#" class="clearkj">商家工具</a>
+                <a href="#">天猫智库</a>
+                <a href="#" class="clearkj">喵言喵语</a>
+              </div>
+              <div class="hrrgb">
+                <h3>帮助:</h3>
+                <a href="#">商家服务大厅</a>
+                <a href="#">问商友</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">商家中心</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- banner -->
     <div class="banner">
-        <div class="container clearfix">
-            <div><img src="./img/banner1.png" alt="" /></div>
-            <div><img src="./img/banner2.png" alt="" /></div>
-            <div><img src="./img/banner3.png" alt="" /></div>
-            <div><img src="./img/banner4.png" alt="" /></div>
-            <div><img src="./img/banner5.png" alt="" /></div>
-        </div>
+      <div class="container clearfix">
+        <div><img src="./img/banner1.png" alt="" /></div>
+        <div><img src="./img/banner2.png" alt="" /></div>
+        <div><img src="./img/banner3.png" alt="" /></div>
+        <div><img src="./img/banner4.png" alt="" /></div>
+        <div><img src="./img/banner5.png" alt="" /></div>
+      </div>
     </div>
 
     <!-- search -->
     <div class="search clearfix">
-        <img src="./img/logo.png" alt="" />
-        <div class="tsrh clearfix">
-            <div class="lfsrh">
-                <input type="text" placeholder="搜索 天猫 商品/品牌/店铺" />
-            </div>
-            <div class="rgsrh">搜索</div>
+      <img src="./img/logo.png" alt="" />
+      <div class="tsrh clearfix">
+        <div class="lfsrh">
+          <input type="text" placeholder="搜索 天猫 商品/品牌/店铺" />
         </div>
+        <div class="rgsrh">搜索</div>
+      </div>
     </div>
 
     <!-- mainNav -->
     <div class="mainnav clearfix">
-        <div class="mainnav-lf">主题市场</div>
-        <ul class="mainnav-rg">
-            <li>
-                <a href="#"><img src="./img/mnl1.png" alt="" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="./img/mnl2.png" alt="" /></a>
-            </li>
-            <li><a href="#">天猫会员</a></li>
-            <li><a href="#">喵鲜生</a></li>
-            <li><a href="#">医药馆</a></li>
-            <li><a href="#">魅力惠</a></li>
-            <li><a href="#">飞猪旅行</a></li>
-            <li><a href="#">苏宁易购</a></li>
-            <li><a href="#">天猫内容</a></li>
-        </ul>
+      <div class="mainnav-lf">主题市场</div>
+      <ul class="mainnav-rg">
+        <li>
+          <a href="#"><img src="./img/mnl1.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./img/mnl2.png" alt="" /></a>
+        </li>
+        <li><a href="#">天猫会员</a></li>
+        <li><a href="#">喵鲜生</a></li>
+        <li><a href="#">医药馆</a></li>
+        <li><a href="#">魅力惠</a></li>
+        <li><a href="#">飞猪旅行</a></li>
+        <li><a href="#">苏宁易购</a></li>
+        <li><a href="#">天猫内容</a></li>
+      </ul>
     </div>
 
     <!-- homecontent -->
     <div class="homecontent">
-        <ul class="intro clearfix">
-            <li>
-                <span class="iconfont icon-nvzhuangneiyi"></span>
-                <a href="#">女装</a>
-                <i>/</i>
-                <a href="#">内衣</a>
-            </li>
-            <li>
-                <span class="iconfont icon-nanzhuang"></span>
-                <a href="#">男装</a>
-                <i>/</i>
-                <a href="#">运动户外</a>
-            </li>
-            <li>
-                <span class="iconfont icon-xiezi"></span>
-                <a href="#">女鞋</a>
-                <i>/</i>
-                <a href="#">男鞋</a>
-                <i>/</i>
-                <a href="#">箱包</a>
-            </li>
-            <li>
-                <span class="iconfont icon-kouhong"></span>
-                <a href="#">美妆</a>
-                <i>/</i>
-                <a href="#">个人护理</a>
-            </li>
-            <li>
-                <span class="iconfont icon-zuanshi_o"></span>
-                <a href="#">腕表</a>
-                <i>/</i>
-                <a href="#">眼镜</a>
-                <i>/</i>
-                <a href="#">珠宝首饰</a>
-            </li>
-            <li>
-                <span class="iconfont icon-shouji1"></span>
-                <a href="#">手机</a>
-                <i>/</i>
-                <a href="#">数码</a>
-                <i>/</i>
-                <a href="#">电脑办公</a>
-            </li>
-            <li>
-                <span class="iconfont icon-muying"></span>
-                <a href="#">母婴玩具</a>
-            </li>
-            <li>
-                <span class="iconfont icon-miantiaomian"></span>
-                <a href="#">零食</a>
-                <i>/</i>
-                <a href="#">茶酒</a>
-                <i>/</i>
-                <a href="#">进口食品</a>
-            </li>
-            <li>
-                <span class="iconfont icon-alishangchuan-"></span>
-                <a href="#">生鲜水果</a>
-            </li>
-            <li>
-                <span class="iconfont icon-jiadian_fill"></span>
-                <a href="#">大家电</a>
-                <i>/</i>
-                <a href="#">生活电器</a>
-            </li>
-            <li>
-                <span class="iconfont icon-jiajujiancai"></span>
-                <a href="#">家具</a>
-                <i>/</i>
-                <a href="#">灯具</a>
-                <i>/</i>
-                <a href="#">卫浴</a>
-            </li>
-            <li>
-                <span class="iconfont icon-qiche"></span>
-                <a href="#">汽车</a>
-                <i>/</i>
-                <a href="#">配件</a>
-                <i>/</i>
-                <a href="#">用品</a>
-            </li>
-            <li>
-                <span class="iconfont icon-jiafangjiashi"></span>
-                <a href="#">家纺</a>
-                <i>/</i>
-                <a href="#">家饰</a>
-                <i>/</i>
-                <a href="#">鲜花</a>
-            </li>
-            <li>
-                <span class="iconfont icon-yiyaobaojian"></span>
-                <a href="#">医药保健</a>
-            </li>
-            <li>
-                <span class="iconfont icon-chabei"></span>
-                <a href="#">厨具</a>
-                <i>/</i>
-                <a href="#">收纳</a>
-                <i>/</i>
-                <a href="#">宠物</a>
-            </li>
-            <li>
-                <span class="iconfont icon-tushuyinxiang"></span>
-                <a href="#">图书音像</a>
-            </li>
-        </ul>
-        <div class="contentcenter">
-            <!-- <div class="carousel">
-                <img src="./img/carsolus.webp" alt="" />
-            </div> -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+      <ul class="intro clearfix">
+        <li>
+          <span class="iconfont icon-nvzhuangneiyi"></span>
+          <a href="#">女装</a>
+          <i>/</i>
+          <a href="#">内衣</a>
+        </li>
+        <li>
+          <span class="iconfont icon-nanzhuang"></span>
+          <a href="#">男装</a>
+          <i>/</i>
+          <a href="#">运动户外</a>
+        </li>
+        <li>
+          <span class="iconfont icon-xiezi"></span>
+          <a href="#">女鞋</a>
+          <i>/</i>
+          <a href="#">男鞋</a>
+          <i>/</i>
+          <a href="#">箱包</a>
+        </li>
+        <li>
+          <span class="iconfont icon-kouhong"></span>
+          <a href="#">美妆</a>
+          <i>/</i>
+          <a href="#">个人护理</a>
+        </li>
+        <li>
+          <span class="iconfont icon-zuanshi_o"></span>
+          <a href="#">腕表</a>
+          <i>/</i>
+          <a href="#">眼镜</a>
+          <i>/</i>
+          <a href="#">珠宝首饰</a>
+        </li>
+        <li>
+          <span class="iconfont icon-shouji1"></span>
+          <a href="#">手机</a>
+          <i>/</i>
+          <a href="#">数码</a>
+          <i>/</i>
+          <a href="#">电脑办公</a>
+        </li>
+        <li>
+          <span class="iconfont icon-muying"></span>
+          <a href="#">母婴玩具</a>
+        </li>
+        <li>
+          <span class="iconfont icon-miantiaomian"></span>
+          <a href="#">零食</a>
+          <i>/</i>
+          <a href="#">茶酒</a>
+          <i>/</i>
+          <a href="#">进口食品</a>
+        </li>
+        <li>
+          <span class="iconfont icon-alishangchuan-"></span>
+          <a href="#">生鲜水果</a>
+        </li>
+        <li>
+          <span class="iconfont icon-jiadian_fill"></span>
+          <a href="#">大家电</a>
+          <i>/</i>
+          <a href="#">生活电器</a>
+        </li>
+        <li>
+          <span class="iconfont icon-jiajujiancai"></span>
+          <a href="#">家具</a>
+          <i>/</i>
+          <a href="#">灯具</a>
+          <i>/</i>
+          <a href="#">卫浴</a>
+        </li>
+        <li>
+          <span class="iconfont icon-qiche"></span>
+          <a href="#">汽车</a>
+          <i>/</i>
+          <a href="#">配件</a>
+          <i>/</i>
+          <a href="#">用品</a>
+        </li>
+        <li>
+          <span class="iconfont icon-jiafangjiashi"></span>
+          <a href="#">家纺</a>
+          <i>/</i>
+          <a href="#">家饰</a>
+          <i>/</i>
+          <a href="#">鲜花</a>
+        </li>
+        <li>
+          <span class="iconfont icon-yiyaobaojian"></span>
+          <a href="#">医药保健</a>
+        </li>
+        <li>
+          <span class="iconfont icon-chabei"></span>
+          <a href="#">厨具</a>
+          <i>/</i>
+          <a href="#">收纳</a>
+          <i>/</i>
+          <a href="#">宠物</a>
+        </li>
+        <li>
+          <span class="iconfont icon-tushuyinxiang"></span>
+          <a href="#">图书音像</a>
+        </li>
+      </ul>
+      <div class="contentcenter">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/lunbotu1.png" alt="" />
             </div>
+            <div class="swiper-slide">
+              <img src="./img/lunbotu2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/lunbotu3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/lunbotu1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/lunbotu2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
 
-            <div class="carsolus-b">
-                <div><img src="./img/carsolus-l.webp" alt="" /></div>
-                <img src="./img/carsolus-b1.jpg" alt="" />
-                <img src="./img/carsolus-b2.jpg" alt="" />
-                <div><img src="./img/carsolus-r.webp" alt="" /></div>
+        <div class="carsolus-b">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/iimg1.png" alt="" style="margin-right: 8px" />
+                <img src="./img/iimg2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iimg3.jpg" alt="" style="margin-right: 8px" />
+                <img src="./img/iimg4.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iimg5.jpg" alt="" style="margin-right: 8px" />
+                <img src="./img/iimg6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/iimg7.jpg" alt="" style="margin-right: 8px" />
+                <img src="./img/iimg8.jpg" alt="" />
+              </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
-        <div class="vipcontent">
-            <div class="rax-view">
-                <img src="./img/touxiang.jpg" alt="" />
-                <div><a href="#">Hi! 你好</a></div>
-            </div>
-            <div class="rex-img">
-                <img src="./img/rax-img.webp" alt="" />
-            </div>
-            <div class="announcement">
-                <div class="fir">
-                    <span>公告</span>
-                    <span>新鲜事儿都在这里～</span>
-                </div>
-                <div class="sec">
-                    <span>热点</span>
-                    <span>设计创享家3D设计服务大赛来袭！</span>
-                </div>
-                <div class="thr">
-                    <span>热点</span>
-                    <span>全球新发现，好物开抢就现在！</span>
-                </div>
-                <div class="fur">
-                    <span>热点</span>
-                    <span>万款新品流行速递抢先看</span>
-                </div>
-            </div>
-            <div class="mytao clearfix">
-                <div>
-                    <a href="#">
-                        <span class="iconfont icon-shoucang"></span>
-                        <div>收藏的宝贝</div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <span class="iconfont icon-handbag"></span>
-                        <div>买过的店铺</div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <span class="iconfont icon-31dianpu"></span>
-                        <div>收藏的店铺</div>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <span class="iconfont icon-wodezuji"></span>
-                        <div>我的足迹</div>
-                    </a>
-                </div>
-            </div>
+      </div>
+
+      <div class="vipcontent">
+        <div class="rax-view">
+          <img src="./img/touxiang.jpg" alt="" />
+          <div><a href="#">Hi! 你好</a></div>
         </div>
+        <div class="rex-img">
+          <img src="./img/rax-img.webp" alt="" />
+        </div>
+        <div class="announcement">
+          <div class="fir">
+            <span>公告</span>
+            <span>新鲜事儿都在这里～</span>
+          </div>
+          <div class="sec">
+            <span>热点</span>
+            <span>设计创享家3D设计服务大赛来袭！</span>
+          </div>
+          <div class="thr">
+            <span>热点</span>
+            <span>全球新发现，好物开抢就现在！</span>
+          </div>
+          <div class="fur">
+            <span>热点</span>
+            <span>万款新品流行速递抢先看</span>
+          </div>
+        </div>
+        <div class="mytao clearfix">
+          <div>
+            <a href="#">
+              <span class="iconfont icon-shoucang"></span>
+              <div>收藏的宝贝</div>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <span class="iconfont icon-handbag"></span>
+              <div>买过的店铺</div>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <span class="iconfont icon-31dianpu"></span>
+              <div>收藏的店铺</div>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <span class="iconfont icon-wodezuji"></span>
+              <div>我的足迹</div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- blank -->
@@ -321,341 +347,366 @@
 
     <!-- Tmall supermarket -->
     <div class="tmallsmt">
-        <div class="icon1">
-            <img src="./img/icon1.webp" alt="" />
-        </div>
-        <div class="product">
-            <img src="./img/smt1.webp" alt="" />
-            <p>【加量不加价】蓝月亮亮白洗衣液薰衣草家用6.5kg促销留香官方</p>
-            <div>￥99.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt2.webp" alt="" />
-            <p>比比赞蛋黄酥雪媚娘12枚600g营养早餐代餐休闲零食品网红小吃糕点</p>
-            <div>￥29.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt3.webp" alt="" />
-            <p>超威驱蚊电蚊香液无香无味5瓶1器285晚家庭家用灭蚊插电蚊香</p>
-            <div>￥39.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt4.webp" alt="" />
-            <p>高洁丝夜用放肆睡420mm×9片丝薄棉柔超长款防侧漏卫生巾姨妈巾</p>
-            <div>￥27.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt5.webp" alt="" />
-            <p>心相印4层卷纸心柔系列180克27卷家用纸巾卫生纸厕纸畅销爆款箱装</p>
-            <div>￥69.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt6.webp" alt="" />
-            <p>好奇铂金装婴儿纸尿裤NB84超薄裸感透气新生儿宝宝儿童尿不湿尿片</p>
-            <div>￥85</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt7.webp" alt="" />
-            <p>RIO锐澳预调鸡尾酒微醺常规系列张子枫同款330ml*10果酒洋酒</p>
-            <div>￥92.6</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt8.webp" alt="" />
-            <p>日本进口狮王网红white white美白牙膏大白防蛀清新去渍150g×1支</p>
-            <div>￥31.8</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt9.webp" alt="" />
-            <p>蓝月亮亮白洗衣液机洗整箱批促销组合装6kg自然清香家用持久护理</p>
-            <div>￥9.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/smt10.webp" alt="" />
-            <p>胡姬花古法花生油6.08L/桶 食用油 传统工艺 压榨 家用大桶装</p>
-            <div>￥99.9</div>
-        </div>
+      <div class="icon1">
+        <img src="./img/icon1.webp" alt="" />
+      </div>
+
+      <div class="tmallsmtt">
+        <!-- <div class="product">
+                <a href="./info.html" style="text-decoration: none">
+                    <img src="./img/210002019.jpg" alt="" />
+                    <p>比比赞雪花梅干果干果脯蜜饯袋装小零食休闲食品小包装办公室美食</p>
+                    <div>￥9.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt2.webp" alt="" />
+                    <p>比比赞蛋黄酥雪媚娘12枚600g营养早餐代餐休闲零食品网红小吃糕点</p>
+                    <div>￥29.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt3.webp" alt="" />
+                    <p>超威驱蚊电蚊香液无香无味5瓶1器285晚家庭家用灭蚊插电蚊香</p>
+                    <div>￥39.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt4.webp" alt="" />
+                    <p>高洁丝夜用放肆睡420mm×9片丝薄棉柔超长款防侧漏卫生巾姨妈巾</p>
+                    <div>￥27.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt5.webp" alt="" />
+                    <p>心相印4层卷纸心柔系列180克27卷家用纸巾卫生纸厕纸畅销爆款箱装</p>
+                    <div>￥69.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt6.webp" alt="" />
+                    <p>好奇铂金装婴儿纸尿裤NB84超薄裸感透气新生儿宝宝儿童尿不湿尿片</p>
+                    <div>￥85</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt7.webp" alt="" />
+                    <p>RIO锐澳预调鸡尾酒微醺常规系列张子枫同款330ml*10果酒洋酒</p>
+                    <div>￥92.6</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt8.webp" alt="" />
+                    <p>日本进口狮王网红white white美白牙膏大白防蛀清新去渍150g×1支</p>
+                    <div>￥31.8</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt9.webp" alt="" />
+                    <p>蓝月亮亮白洗衣液机洗整箱批促销组合装6kg自然清香家用持久护理</p>
+                    <div>￥9.9</div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="javascript:;" style="text-decoration: none">
+                    <img src="./img/smt10.webp" alt="" />
+                    <p>胡姬花古法花生油6.08L/桶 食用油 传统工艺 压榨 家用大桶装</p>
+                    <div>￥99.9</div>
+                </a>
+            </div> -->
+      </div>
     </div>
 
     <!-- Tmall Global -->
     <div class="tmallgl">
-        <div class="icon1">
-            <img src="./img/icon2.webp" alt="" />
+      <div class="icon1">
+        <img src="./img/icon2.webp" alt="" />
+      </div>
+      <div class="product">
+        <img src="./img/tmgj1.webp" alt="" class="qtu" />
+        <div class="biaoq">
+          <p class="jinkzj">进口直降</p>
+          <p class="zhix">|</p>
+          <div>
+            <p class="jianh">全球尖货</p>
+            <p class="lijq">立即抢</p>
+          </div>
         </div>
-        <div class="product">
-            <img src="./img/tmgj1.webp" alt="" class="qtu" />
-            <div class="biaoq">
-                <p class="jinkzj">进口直降</p>
-                <p class="zhix">|</p>
-                <div>
-                    <p class="jianh">全球尖货</p>
-                    <p class="lijq">立即抢</p>
-                </div>
-            </div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj2.webp" alt="" />
+        <p class="haiwzg">海外直购</p>
+        <div class="jianhfq">尖货疯抢</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj3.webp" alt="" />
+        <p>澳洲Life space孕妇益生菌孕期哺乳期妈妈产后调理肠道肠胃益倍适</p>
+        <div>￥236</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj4.webp" alt="" />
+        <p>正品MrsRogers喜马拉雅纯天然岩盐 粗粉盐食用玫瑰盐 200g研磨版</p>
+        <div>￥59</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj5.webp" alt="" />
+        <p>帮宝适清新帮泡泡纸尿裤M54超薄透气婴儿尿不湿宝宝日本正品干爽</p>
+        <div>￥89</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj6.webp" alt="" class="qtu" />
+        <div class="biaoq">
+          <p class="jinkzj">官方大牌</p>
+          <p class="zhix">|</p>
+          <div>
+            <p class="jianh">国际自营</p>
+            <p class="lijq">直降中</p>
+          </div>
         </div>
-        <div class="product">
-            <img src="./img/tmgj2.webp" alt="" />
-            <p class="haiwzg">海外直购</p>
-            <div class="jianhfq">尖货疯抢</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj3.webp" alt="" />
-            <p>澳洲Life space孕妇益生菌孕期哺乳期妈妈产后调理肠道肠胃益倍适</p>
-            <div>￥236</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj4.webp" alt="" />
-            <p>正品MrsRogers喜马拉雅纯天然岩盐 粗粉盐食用玫瑰盐 200g研磨版</p>
-            <div>￥59</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj5.webp" alt="" />
-            <p>帮宝适清新帮泡泡纸尿裤M54超薄透气婴儿尿不湿宝宝日本正品干爽</p>
-            <div>￥89</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj6.webp" alt="" class="qtu" />
-            <div class="biaoq">
-                <p class="jinkzj">官方大牌</p>
-                <p class="zhix">|</p>
-                <div>
-                    <p class="jianh">国际自营</p>
-                    <p class="lijq">直降中</p>
-                </div>
-            </div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj7.webp" alt="" />
-            <p>unny隔离霜妆前乳李佳奇推荐提亮肤色隐毛孔防晒遮瑕女官方旗舰店*10果酒洋酒</p>
-            <div>￥59</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj8.webp" alt="" />
-            <p>日本进口狮王网红white ARMANI JEANS阿玛尼男士品牌黑色圆领精品短袖T恤 6Y6T156J00Z</p>
-            <div>￥480</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj9.webp" alt="" />
-            <p>日本VAPE未来150日便携电池驱蚊器 室内防蚊灭蚊家用孕妇安全无味</p>
-            <div>￥75</div>
-        </div>
-        <div class="product">
-            <img src="./img/tmgj10.webp" alt="" />
-            <p>Adidas阿迪达斯男子运动足球耐磨5号球彩点机缝TPU美国直邮DY2568</p>
-            <div>￥469</div>
-        </div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj7.webp" alt="" />
+        <p>unny隔离霜妆前乳李佳奇推荐提亮肤色隐毛孔防晒遮瑕女官方旗舰店*10果酒洋酒</p>
+        <div>￥59</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj8.webp" alt="" />
+        <p>日本进口狮王网红white ARMANI JEANS阿玛尼男士品牌黑色圆领精品短袖T恤 6Y6T156J00Z</p>
+        <div>￥480</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj9.webp" alt="" />
+        <p>日本VAPE未来150日便携电池驱蚊器 室内防蚊灭蚊家用孕妇安全无味</p>
+        <div>￥75</div>
+      </div>
+      <div class="product">
+        <img src="./img/tmgj10.webp" alt="" />
+        <p>Adidas阿迪达斯男子运动足球耐磨5号球彩点机缝TPU美国直邮DY2568</p>
+        <div>￥469</div>
+      </div>
     </div>
 
     <!-- you may also like -->
     <div class="guessuk">
-        <div class="icon1">
-            <h3>猜你喜欢</h3>
-            <div>个性推荐</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu1.webp" alt="" />
-            <p>欧莱雅紫安瓶玻尿酸水光洗发水蓬松长效清爽水润洗发露洗护套装</p>
-            <div>￥69.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu2.webp" alt="" />
-            <p>【三只松鼠_坚果炒货零食大礼包】零食小吃休闲食品夜宵充饥宿舍</p>
-            <div>￥29.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu3.webp" alt="" />
-            <p>加量不加价la有氧洗威露士除菌洗衣液6L除螨99%松木原味随机发</p>
-            <div>￥99.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu4.webp" alt="" />
-            <p>【618立即抢购】欧莱雅安瓶面膜玻尿酸精华补水保湿紧致舒缓淡纹</p>
-            <div>￥449.0</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu5.webp" alt="" />
-            <p>Apple/苹果 20W USB-C 电源适配器</p>
-            <div>￥149.0</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu6.webp" alt="" />
-            <p>维达超韧手帕纸4层8张18包小包餐巾纸卫生纸巾面巾纸抽纸新旧交替</p>
-            <div>￥9.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu7.webp" alt="" />
-            <p>【618】OLAY玉兰油抗糖小白瓶烟酰胺光感美白提亮补水保湿精华液</p>
-            <div>￥229.0</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu8.webp" alt="" />
-            <p>维达抽纸超韧家用擦手纸卫生纸巾3层100抽10包面巾纸实惠餐巾纸i2</p>
-            <div>￥19.9</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu9.webp" alt="" />
-            <p>【618立即抢购】欧莱雅紫熨斗眼霜眼部护肤品补水保湿淡纹抗皱</p>
-            <div>￥259.0</div>
-        </div>
-        <div class="product">
-            <img src="./img/guessu10.webp" alt="" />
-            <p>飞科剃须刀官方旗舰店正品刮胡刀电动男士胡须刀充电式父亲节礼物</p>
-            <div>￥159.0</div>
-        </div>
+      <div class="icon1">
+        <h3>猜你喜欢</h3>
+        <div>个性推荐</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu1.webp" alt="" />
+        <p>欧莱雅紫安瓶玻尿酸水光洗发水蓬松长效清爽水润洗发露洗护套装</p>
+        <div>￥69.9</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu2.webp" alt="" />
+        <p>【三只松鼠_坚果炒货零食大礼包】零食小吃休闲食品夜宵充饥宿舍</p>
+        <div>￥29.9</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu3.webp" alt="" />
+        <p>加量不加价la有氧洗威露士除菌洗衣液6L除螨99%松木原味随机发</p>
+        <div>￥99.9</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu4.webp" alt="" />
+        <p>【618立即抢购】欧莱雅安瓶面膜玻尿酸精华补水保湿紧致舒缓淡纹</p>
+        <div>￥449.0</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu5.webp" alt="" />
+        <p>Apple/苹果 20W USB-C 电源适配器</p>
+        <div>￥149.0</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu6.webp" alt="" />
+        <p>维达超韧手帕纸4层8张18包小包餐巾纸卫生纸巾面巾纸抽纸新旧交替</p>
+        <div>￥9.9</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu7.webp" alt="" />
+        <p>【618】OLAY玉兰油抗糖小白瓶烟酰胺光感美白提亮补水保湿精华液</p>
+        <div>￥229.0</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu8.webp" alt="" />
+        <p>维达抽纸超韧家用擦手纸卫生纸巾3层100抽10包面巾纸实惠餐巾纸i2</p>
+        <div>￥19.9</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu9.webp" alt="" />
+        <p>【618立即抢购】欧莱雅紫熨斗眼霜眼部护肤品补水保湿淡纹抗皱</p>
+        <div>￥259.0</div>
+      </div>
+      <div class="product">
+        <img src="./img/guessu10.webp" alt="" />
+        <p>飞科剃须刀官方旗舰店正品刮胡刀电动男士胡须刀充电式父亲节礼物</p>
+        <div>￥159.0</div>
+      </div>
     </div>
 
     <!-- footer -->
     <div class="service">
-        <div class="serverfir">
-            <div class="footcontainer">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
+      <div class="serverfir">
+        <div class="footcontainer">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
         </div>
-        <div class="serversec">
-            <dl>
-                <dt>购物指南</dt>
-                <dd><a href="#" target="_blank">免费注册</a></dd>
-                <dd><a href="#" target="_blank">开通支付宝</a></dd>
-                <dd><a href="#" target="_blank">支付宝充值</a></dd>
-            </dl>
-            <dl>
-                <dt>天猫保障</dt>
-                <dd><a href="#" target="_blank">发票保障</a></dd>
-                <dd><a href="#" target="_blank">售后规则</a></dd>
-                <dd><a href="#" target="_blank">物流时效保障</a></dd>
-            </dl>
-            <dl>
-                <dt>支付方式</dt>
-                <dd><a href="#" target="_blank">快捷支付</a></dd>
-                <dd><a href="#" target="_blank">信用卡</a></dd>
-                <dd><a href="#" target="_blank">余额宝</a></dd>
-                <dd><a href="#" target="_blank">蚂蚁花呗</a></dd>
-            </dl>
-            <dl>
-                <dt>商家服务</dt>
-                <dd><a href="#" target="_blank">天猫规则</a></dd>
-                <dd><a href="#" target="_blank">商家入驻</a></dd>
-                <dd><a href="#" target="_blank">商家中心</a></dd>
-                <dd><a href="#" target="_blank">天猫必修课</a></dd>
-                <dd><a href="#" target="_blank">喵言喵语</a></dd>
-                <dd><a href="#" target="_blank">运营服务</a></dd>
-            </dl>
-            <dl>
-                <dt>手机天猫</dt>
-                <dd><img src="./img/erwm.png" alt="" /></dd>
-            </dl>
-        </div>
+      </div>
+      <div class="serversec">
+        <dl>
+          <dt>购物指南</dt>
+          <dd><a href="#" target="_blank">免费注册</a></dd>
+          <dd><a href="#" target="_blank">开通支付宝</a></dd>
+          <dd><a href="#" target="_blank">支付宝充值</a></dd>
+        </dl>
+        <dl>
+          <dt>天猫保障</dt>
+          <dd><a href="#" target="_blank">发票保障</a></dd>
+          <dd><a href="#" target="_blank">售后规则</a></dd>
+          <dd><a href="#" target="_blank">物流时效保障</a></dd>
+        </dl>
+        <dl>
+          <dt>支付方式</dt>
+          <dd><a href="#" target="_blank">快捷支付</a></dd>
+          <dd><a href="#" target="_blank">信用卡</a></dd>
+          <dd><a href="#" target="_blank">余额宝</a></dd>
+          <dd><a href="#" target="_blank">蚂蚁花呗</a></dd>
+        </dl>
+        <dl>
+          <dt>商家服务</dt>
+          <dd><a href="#" target="_blank">天猫规则</a></dd>
+          <dd><a href="#" target="_blank">商家入驻</a></dd>
+          <dd><a href="#" target="_blank">商家中心</a></dd>
+          <dd><a href="#" target="_blank">天猫必修课</a></dd>
+          <dd><a href="#" target="_blank">喵言喵语</a></dd>
+          <dd><a href="#" target="_blank">运营服务</a></dd>
+        </dl>
+        <dl>
+          <dt>手机天猫</dt>
+          <dd><img src="./img/erwm.png" alt="" /></dd>
+        </dl>
+      </div>
     </div>
 
     <!-- info -->
     <div class="info">
-        <div class="info1">
-            <a href="#" target="_blank">关于天猫</a>
-            <a href="#" target="_blank">商家服务大厅</a>
-            <a href="#" target="_blank">开放平台</a>
-            <a href="#" target="_blank">诚聘英才</a>
-            <a href="#" target="_blank">联系我们</a>
-            <a href="#" target="_blank">网站合作</a>
-            <a href="#" target="_blank">法律声明</a>
-            <a href="#" target="_blank">隐私权政策</a>
-            <a href="#" target="_blank">知识产权</a>
-            <a href="#" target="_blank">廉正举报</a>
-            <a href="#" target="_blank">规则意见征集</a>
-            <a href="#" target="_blank">不当竞争举报</a>
-        </div>
+      <div class="info1">
+        <a href="#" target="_blank">关于天猫</a>
+        <a href="#" target="_blank">商家服务大厅</a>
+        <a href="#" target="_blank">开放平台</a>
+        <a href="#" target="_blank">诚聘英才</a>
+        <a href="#" target="_blank">联系我们</a>
+        <a href="#" target="_blank">网站合作</a>
+        <a href="#" target="_blank">法律声明</a>
+        <a href="#" target="_blank">隐私权政策</a>
+        <a href="#" target="_blank">知识产权</a>
+        <a href="#" target="_blank">廉正举报</a>
+        <a href="#" target="_blank">规则意见征集</a>
+        <a href="#" target="_blank">不当竞争举报</a>
+      </div>
 
-        <div class="info2">
-            <a href="#" target="_blank">阿里巴巴集团 |</a>
-            <a href="#" target="_blank">淘宝网 |</a>
-            <a href="#" target="_blank">天猫 |</a>
-            <a href="#" target="_blank">聚划算 |</a>
-            <a href="#" target="_blank">全球速卖通 |</a>
-            <a href="#" target="_blank">阿里巴巴国际交易市场 |</a>
-            <a href="#" target="_blank">1688 |</a>
-            <a href="#" target="_blank">阿里妈妈 |</a>
-            <a href="#" target="_blank">飞猪 |</a>
-            <a href="#" target="_blank">阿里云计算 |</a>
-            <a href="#" target="_blank">AliOS |</a>
-            <a href="#" target="_blank">阿里通信 |</a>
-            <a href="#" target="_blank">万网 |</a>
-            <a href="#" target="_blank">高德 |</a>
-            <a href="#" target="_blank">UC |</a>
-            <a href="#" target="_blank">友盟 |</a>
-            <a href="#" target="_blank">钉钉 |</a>
-            <a href="#" target="_blank">支付宝 |</a>
-            <a href="#" target="_blank">阿里安全</a>
-        </div>
+      <div class="info2">
+        <a href="#" target="_blank">阿里巴巴集团 |</a>
+        <a href="#" target="_blank">淘宝网 |</a>
+        <a href="#" target="_blank">天猫 |</a>
+        <a href="#" target="_blank">聚划算 |</a>
+        <a href="#" target="_blank">全球速卖通 |</a>
+        <a href="#" target="_blank">阿里巴巴国际交易市场 |</a>
+        <a href="#" target="_blank">1688 |</a>
+        <a href="#" target="_blank">阿里妈妈 |</a>
+        <a href="#" target="_blank">飞猪 |</a>
+        <a href="#" target="_blank">阿里云计算 |</a>
+        <a href="#" target="_blank">AliOS |</a>
+        <a href="#" target="_blank">阿里通信 |</a>
+        <a href="#" target="_blank">万网 |</a>
+        <a href="#" target="_blank">高德 |</a>
+        <a href="#" target="_blank">UC |</a>
+        <a href="#" target="_blank">友盟 |</a>
+        <a href="#" target="_blank">钉钉 |</a>
+        <a href="#" target="_blank">支付宝 |</a>
+        <a href="#" target="_blank">阿里安全</a>
+      </div>
 
-        <div class="info3">
-            <a href="#">增值电信业务经营许可证：浙B2-20110446</a>
-            <span>市场名称登记证：工商网市字3301004119号</span>
-            <span>出版物网络交易平台服务经营备案证： 新出发浙备字第2019002号</span>
-        </div>
+      <div class="info3">
+        <a href="#">增值电信业务经营许可证：浙B2-20110446</a>
+        <span>市场名称登记证：工商网市字3301004119号</span>
+        <span>出版物网络交易平台服务经营备案证： 新出发浙备字第2019002号</span>
+      </div>
 
-        <div class="info4">
-            <span>互联网违法和不良信息举报电话：0571-81683755 jubao.tb@service.taobao.com</span>
-            <a href="//www.12377.cn/">中国互联网举报中心</a>
-            <a href="https://www.shdf.gov.cn/">中国扫黄打非网</a>
-            <a href="https://jbts.mct.gov.cn/">全国文化和旅游市场网上举报投诉处理系统</a>
-            <a href="https://www.12315.cn/">全国12315平台</a>
-        </div>
+      <div class="info4">
+        <span>互联网违法和不良信息举报电话：0571-81683755 jubao.tb@service.taobao.com</span>
+        <a href="//www.12377.cn/">中国互联网举报中心</a>
+        <a href="https://www.shdf.gov.cn/">中国扫黄打非网</a>
+        <a href="https://jbts.mct.gov.cn/">全国文化和旅游市场网上举报投诉处理系统</a>
+        <a href="https://www.12315.cn/">全国12315平台</a>
+      </div>
 
-        <div class="info5">
-            <a href="http://www.zjjubao.com/">浙江省互联网违法和不良信息举报中心</a>
-            <a href="https://jubao.taobao.com/">全网举报</a>
-            <span>互联网药品信息服务资质证书编号：</span>
-            <a href="//img.alicdn.com/imgextra/i4/O1CN01JRPjPQ1hiwZHJQzle_!!6000000004312-2-tps-1792-1260.png">
+      <div class="info5">
+        <a href="http://www.zjjubao.com/">浙江省互联网违法和不良信息举报中心</a>
+        <a href="https://jubao.taobao.com/">全网举报</a>
+        <span>互联网药品信息服务资质证书编号：</span>
+        <a href="//img.alicdn.com/imgextra/i4/O1CN01JRPjPQ1hiwZHJQzle_!!6000000004312-2-tps-1792-1260.png">
           浙-（经营性）-2017-0005
         </a>
-            <a href="#" target="_blank">浙公网安备 33010002000120号</a>
-        </div>
+        <a href="#" target="_blank">浙公网安备 33010002000120号</a>
+      </div>
 
-        <div class="info6">
-            <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
-            <span>网络文化经营许可证：浙网文 [2021]1668-073号</span>
-        </div>
+      <div class="info6">
+        <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+        <span>网络文化经营许可证：浙网文 [2021]1668-073号</span>
+      </div>
 
-        <div class="info7">
-            <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
-            <a href="https://jbts.mct.gov.cn/">12318举报</a>
-            <a href="http://beian.miit.gov.cn/">浙B2-20110446-1</a>
-        </div>
+      <div class="info7">
+        <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+        <a href="https://jbts.mct.gov.cn/">12318举报</a>
+        <a href="http://beian.miit.gov.cn/">浙B2-20110446-1</a>
+      </div>
 
-        <div class="info8">
-            <b>© 2003-现在 TMALL.COM 版权所有</b>
-        </div>
+      <div class="info8">
+        <b>© 2003-现在 TMALL.COM 版权所有</b>
+      </div>
 
-        <div class="info9">
-            <a href="#"><img src="./img/foot1.jpg" alt="" /></a>
-            <a href="#"><img src="./img/foot2.png" alt="" /></a>
-            <a href="#"><img src="./img/foot3.png" alt="" /></a>
-            <a href="#"><img src="./img/foot4.png" alt="" /></a>
-            <a href="#"><img src="./img/foot5.png" alt="" /></a>
-            <br />
-            <a href="#">
-                <img src="./img/foot6.png" alt="" />
-            </a>
-        </div>
+      <div class="info9">
+        <a href="#"><img src="./img/foot1.jpg" alt="" /></a>
+        <a href="#"><img src="./img/foot2.png" alt="" /></a>
+        <a href="#"><img src="./img/foot3.png" alt="" /></a>
+        <a href="#"><img src="./img/foot4.png" alt="" /></a>
+        <a href="#"><img src="./img/foot5.png" alt="" /></a>
+        <br />
+        <a href="#">
+          <img src="./img/foot6.png" alt="" />
+        </a>
+      </div>
     </div>
 
     <script src="./js/swiper-bundle.min.js"></script>
-
     <script>
-        var swiper = new Swiper('.mySwiper', {
-            cssMode: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev'
-            },
-            pagination: {
-                el: '.swiper-pagination'
-            },
-            mousewheel: true,
-            keyboard: true
-        });
+      var swiper = new Swiper('.mySwiper', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      })
     </script>
-</body>
-
+  </body>
 </html>

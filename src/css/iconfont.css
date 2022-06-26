@@ -1,182 +1,189 @@
 @font-face {
-  font-family: 'iconfont'; /* Project id 3468152 */
-  src: url('../font/iconfont.woff2?t=1655726883297') format('woff2'),
-    url('../font/iconfont.woff?t=1655726883297') format('woff'),
-    url('../font/iconfont.ttf?t=1655726883297') format('truetype');
+    font-family: 'iconfont';
+    /* Project id 3468152 */
+    src: url('../font/iconfont.woff2?t=1655882080412') format('woff2'), url('../font/iconfont.woff?t=1655882080412') format('woff'), url('../font/iconfont.ttf?t=1655882080412') format('truetype');
 }
 
 .iconfont {
-  font-family: 'iconfont' !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qr-code:before {
+    content: '\e68d';
+}
+
+.icon-qrcode:before {
+    content: '\e86f';
 }
 
 .icon-xiangxia:before {
-  content: '\e60f';
+    content: '\e60f';
 }
 
 .icon-xiangshang:before {
-  content: '\e610';
+    content: '\e610';
 }
 
 .icon-gouwuche2:before {
-  content: '\e611';
+    content: '\e611';
 }
 
 .icon-xiangxia1:before {
-  content: '\e771';
+    content: '\e771';
 }
 
 .icon-rmb:before {
-  content: '\e7d8';
+    content: '\e7d8';
 }
 
 .icon-shijian:before {
-  content: '\e64d';
+    content: '\e64d';
 }
 
 .icon-xingxing:before {
-  content: '\e70b';
+    content: '\e70b';
 }
 
 .icon-yuandian:before {
-  content: '\e62f';
+    content: '\e62f';
 }
 
 .icon-juhuasuan:before {
-  content: '\e60e';
+    content: '\e60e';
 }
 
 .icon-fangdajing:before {
-  content: '\e63d';
+    content: '\e63d';
 }
 
 .icon-xiala:before {
-  content: '\e6b9';
+    content: '\e6b9';
 }
 
 .icon-sousuo:before {
-  content: '\eafe';
+    content: '\eafe';
 }
 
 .icon-zhifubaozhifu:before {
-  content: '\e612';
+    content: '\e612';
 }
 
 .icon-weibo:before {
-  content: '\e630';
+    content: '\e630';
 }
 
 .icon-wodezhanghu:before {
-  content: '\e639';
+    content: '\e639';
 }
 
 .icon-mima:before {
-  content: '\e8b2';
+    content: '\e8b2';
 }
 
 .icon-peizhitubiaosvg-:before {
-  content: '\e656';
+    content: '\e656';
 }
 
 .icon-taobaowang:before {
-  content: '\e60a';
+    content: '\e60a';
 }
 
 .icon-taobao:before {
-  content: '\e60b';
+    content: '\e60b';
 }
 
 .icon-jiajujiancai:before {
-  content: '\e600';
+    content: '\e600';
 }
 
 .icon-nvzhuangneiyi:before {
-  content: '\e601';
+    content: '\e601';
 }
 
 .icon-jiafangjiashi:before {
-  content: '\e602';
+    content: '\e602';
 }
 
 .icon-yiyaobaojian:before {
-  content: '\e603';
+    content: '\e603';
 }
 
 .icon-tushuyinxiang:before {
-  content: '\e604';
+    content: '\e604';
 }
 
 .icon-nanzhuang:before {
-  content: '\e605';
+    content: '\e605';
 }
 
 .icon-31dianpu:before {
-  content: '\e606';
+    content: '\e606';
 }
 
 .icon-shoucang:before {
-  content: '\e666';
+    content: '\e666';
 }
 
 .icon-shouji:before {
-  content: '\e692';
+    content: '\e692';
 }
 
 .icon-muying:before {
-  content: '\e7b4';
+    content: '\e7b4';
 }
 
 .icon-xiezi:before {
-  content: '\e638';
+    content: '\e638';
 }
 
 .icon-chabei:before {
-  content: '\e607';
+    content: '\e607';
 }
 
 .icon-fangjian:before {
-  content: '\e617';
+    content: '\e617';
 }
 
 .icon-miantiaomian:before {
-  content: '\e60c';
+    content: '\e60c';
 }
 
 .icon-alishangchuan-:before {
-  content: '\e608';
+    content: '\e608';
 }
 
 .icon-zuanshi_o:before {
-  content: '\eb70';
+    content: '\eb70';
 }
 
 .icon-qiche:before {
-  content: '\ec6d';
+    content: '\ec6d';
 }
 
 .icon-shouji1:before {
-  content: '\e66a';
+    content: '\e66a';
 }
 
 .icon-gouwuche:before {
-  content: '\e62b';
+    content: '\e62b';
 }
 
 .icon-wodezuji:before {
-  content: '\e614';
+    content: '\e614';
 }
 
 .icon-jiadian_fill:before {
-  content: '\e60d';
+    content: '\e60d';
 }
 
 .icon-handbag:before {
-  content: '\e8bb';
+    content: '\e8bb';
 }
 
 .icon-kouhong:before {
-  content: '\e609';
+    content: '\e609';
 }

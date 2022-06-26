@@ -59,6 +59,46 @@ header .hdrrg a .icon-peizhitubiaosvg- {
   margin-top: 110px;
   padding: 25px 25px 23px;
   background-color: #fff;
+  position: relative;
+}
+.navbar .navbc .logx .icon-qr-code {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 52px;
+  line-height: 52px;
+  cursor: pointer;
+  color: #f40;
+}
+.navbar .navbc .logx .login-tip {
+  position: absolute;
+  top: 5px;
+  right: 58px;
+  width: 106px;
+  height: 28px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: 1px solid #f3d995;
+  background: #fefcee;
+}
+.navbar .navbc .logx .login-tip .poptip {
+  position: relative;
+}
+.navbar .navbc .logx .login-tip .poptip .poptip-arrow {
+  position: absolute;
+  top: 3px;
+  right: -21px;
+  width: 0px;
+  height: 0px;
+  border: 5px solid;
+  border-color: transparent transparent transparent #f3d995;
+}
+.navbar .navbc .logx .login-tip .poptip .poptip-content {
+  color: #ff9000;
+  font-size: 12px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 16px;
 }
 .navbar .navbc .logx .logmethod {
   width: 300px;
@@ -72,6 +112,11 @@ header .hdrrg a .icon-peizhitubiaosvg- {
   margin: 9px 10px 0 0;
   width: 64px;
   height: 18px;
+  font-weight: 700;
+}
+.navbar .navbc .logx .logmethod .active {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #000;
 }
 .navbar .navbc .logx .lgm1 {
   width: 300px;
@@ -94,14 +139,12 @@ header .hdrrg a .icon-peizhitubiaosvg- {
   color: #fff;
 }
 .navbar .navbc .logx .lgm1 > input {
-  display: inline-block;
   width: 240px;
   padding-left: 10px;
   height: 40px;
   line-height: 40px;
   font-size: 14px;
   vertical-align: top;
-  color: #fff;
 }
 .navbar .navbc .logx .lgm2 {
   width: 300px;
@@ -124,14 +167,12 @@ header .hdrrg a .icon-peizhitubiaosvg- {
   color: #fff;
 }
 .navbar .navbc .logx .lgm2 > input {
-  display: inline-block;
   width: 240px;
   padding-left: 10px;
   height: 40px;
   line-height: 40px;
   font-size: 14px;
   vertical-align: top;
-  color: #fff;
 }
 .navbar .navbc .logx .lgm3 {
   width: 300px;

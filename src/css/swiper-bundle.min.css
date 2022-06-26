@@ -18,7 +18,7 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff;
+    --swiper-theme-color: #ff0036;
 }
 
 .swiper {
@@ -219,6 +219,14 @@
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
 
+.swiper-button-next {
+    background: url(../img/carsolus-r.webp) no-repeat;
+}
+
+.swiper-button-prev {
+    background: url(../img/carsolus-l.webp) no-repeat;
+}
+
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
     opacity: 0.35;
@@ -226,7 +234,8 @@
     pointer-events: none;
 }
 
-.swiper-button-next:after,
+
+/* .swiper-button-next:after,
 .swiper-button-prev:after {
     font-family: swiper-icons;
     font-size: var(--swiper-navigation-size);
@@ -235,29 +244,32 @@
     text-transform: none;
     font-variant: initial;
     line-height: 1;
-}
+} */
 
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-    left: 10px;
+    left: 0px;
     right: auto;
 }
 
-.swiper-button-prev:after,
+
+/* .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     content: 'prev';
-}
+} */
 
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    right: 10px;
+    right: -5px;
     left: auto;
 }
 
+
+/* 
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     content: 'next';
-}
+} */
 
 .swiper-button-lock {
     display: none;
@@ -323,7 +335,7 @@
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
     display: inline-block;
     border-radius: 50%;
-    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    background: var(--swiper-pagination-bullet-inactive-color, #fff);
     opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
 }
 

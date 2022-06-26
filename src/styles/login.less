@@ -59,6 +59,48 @@ header {
       margin-top: 110px;
       padding: 25px 25px 23px;
       background-color: #fff;
+      position: relative;
+      .icon-qr-code {
+        position: absolute;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 52px;
+        line-height: 52px;
+        cursor: pointer;
+        color: #f40;
+      }
+      .login-tip {
+        position: absolute;
+        top: 5px;
+        right: 58px;
+        width: 106px;
+        height: 28px;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        border: 1px solid #f3d995;
+        background: #fefcee;
+        .poptip {
+          position: relative;
+          .poptip-arrow {
+            position: absolute;
+            top: 3px;
+            right: -21px;
+            width: 0px;
+            height: 0px;
+            border: 5px solid;
+            border-color: transparent transparent transparent #f3d995;
+          }
+          .poptip-content {
+            color: #ff9000;
+            font-size: 12px;
+            font-weight: 400;
+            box-sizing: border-box;
+            line-height: 16px;
+          }
+        }
+      }
+
       .logmethod {
         width: 300px;
         height: 27px;
@@ -70,6 +112,11 @@ header {
           margin: 9px 10px 0 0;
           width: 64px;
           height: 18px;
+          font-weight: 700;
+        }
+        .active {
+          padding-bottom: 8px;
+          border-bottom: 2px solid #000;
         }
       }
       .lgm1 {
@@ -92,14 +139,12 @@ header {
           }
         }
         > input {
-          display: inline-block;
           width: 240px;
           padding-left: 10px;
           height: 40px;
           line-height: 40px;
           font-size: 14px;
           vertical-align: top;
-          color: #fff;
         }
       }
       .lgm2 {
@@ -122,14 +167,12 @@ header {
           }
         }
         > input {
-          display: inline-block;
           width: 240px;
           padding-left: 10px;
           height: 40px;
           line-height: 40px;
           font-size: 14px;
           vertical-align: top;
-          color: #fff;
         }
       }
       .lgm3 {
