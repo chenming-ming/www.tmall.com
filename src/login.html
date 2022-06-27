@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/iconfont.css" />
   </head>
+
   <body>
     <!-- header -->
     <header class="clearfix">
@@ -17,10 +18,7 @@
       </div>
       <div class="hdrrg">
         <a href="#">网页无障碍</a>
-        <a href="#">
-          <span class="iconfont icon-peizhitubiaosvg-"></span>
-          "登录页面"改进建议
-        </a>
+        <a href="#"> <span class="iconfont icon-peizhitubiaosvg-"></span> "登录页面"改进建议 </a>
       </div>
     </header>
 
@@ -29,31 +27,40 @@
       <div class="navbc">
         <a href="#"></a>
         <div class="logx">
+          <i class="iconfont icon-qr-code"></i>
+          <div class="login-tip">
+            <div class="poptip">
+              <div class="poptip-arrow"></div>
+              <div class="poptip-content">扫码登录更安全</div>
+            </div>
+          </div>
           <div class="logmethod">
-            <span>密码登录</span>
+            <span class="active">密码登录</span>
             <span>短信登录</span>
           </div>
-          <div class="lgm1">
-            <div class="lgm1con">
-              <span class="iconfont icon-wodezhanghu"></span>
+          <form action="../interface/login.php" method="post">
+            <div class="lgm1">
+              <div class="lgm1con">
+                <span class="iconfont icon-wodezhanghu"></span>
+              </div>
+              <input type="text" id="username" name="username" placeholder="账户名/邮箱/手机号" />
             </div>
-            <input type="text" placeholder="账户名/邮箱/手机号" />
-          </div>
-          <div class="lgm2">
-            <div class="lgm2con">
-              <span class="iconfont icon-mima"></span>
+            <div class="lgm2">
+              <div class="lgm2con">
+                <span class="iconfont icon-mima"></span>
+              </div>
+              <input type="text" id="password" name="password" placeholder="请输入登录密码" />
             </div>
-            <input type="text" placeholder="请输入登录密码" />
-          </div>
-          <div class="lgm3">登录</div>
+            <button class="lgm3" type="submit">登录</button>
+          </form>
           <div class="lgm4">
-            <span>微博登录</span>
-            <span>支付宝登录</span>
+            <span><i class="iconfont icon-weibo" style="color: #e52425"></i> 微博登录</span>
+            <span><i class="iconfont icon-zhifubaozhifu" style="color: #1ba9ee"></i> 支付宝登录</span>
           </div>
           <div class="lgm5">
             <a href="#">忘记密码</a>
             <a href="#">忘记账户名</a>
-            <a href="#">免费注册</a>
+            <a href="./register.html">免费注册</a>
           </div>
         </div>
       </div>

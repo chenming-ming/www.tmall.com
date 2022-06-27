@@ -413,33 +413,45 @@ a:hover {
   display: block;
   width: 520px;
   height: 280px;
+  border-radius: 10px;
   object-fit: cover;
 }
 .homecontent .contentcenter .carsolus-b {
   width: 520px;
   height: 235px;
   box-sizing: border-box;
-  padding-top: 35px;
-  position: relative;
+  padding-top: 30px;
 }
-.homecontent .contentcenter .carsolus-b div > img {
-  width: 20px;
-  height: 30px;
+.homecontent .contentcenter .carsolus-b .swiper {
+  width: 520px;
+  height: 235px;
 }
-.homecontent .contentcenter .carsolus-b div:nth-child(1) {
-  position: absolute;
-  top: 139px;
-  left: 0;
+.homecontent .contentcenter .carsolus-b .swiper .swiper-wrapper {
+  width: 520px;
+  height: 235px;
 }
-.homecontent .contentcenter .carsolus-b div:nth-child(4) {
-  position: absolute;
-  top: 139px;
-  right: 0;
+.homecontent .contentcenter .carsolus-b .swiper .swiper-wrapper .swiper-slide {
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
-.homecontent .contentcenter .carsolus-b img {
+.homecontent .contentcenter .carsolus-b .swiper .swiper-wrapper .swiper-slide img {
+  display: block;
   width: 256px;
   height: 200px;
   border-radius: 12px;
+  object-fit: cover;
 }
 .homecontent .vipcontent {
   float: left;
@@ -567,8 +579,8 @@ a:hover {
   margin-bottom: 13px;
   float: left;
 }
-.tmallsmt .product:nth-child(6),
-.tmallsmt .product:nth-child(11) {
+.tmallsmt .product:nth-child(5),
+.tmallsmt .product:nth-child(10) {
   margin-right: 0;
 }
 .tmallsmt .product img {
@@ -620,8 +632,8 @@ a:hover {
   float: left;
   position: relative;
 }
-.tmallgl .product:nth-child(6),
-.tmallgl .product:nth-child(11) {
+.tmallgl .product:nth-child(5),
+.tmallgl .product:nth-child(10) {
   margin-right: 0;
 }
 .tmallgl .product .biaoq {

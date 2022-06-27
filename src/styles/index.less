@@ -390,20 +390,11 @@ a {
     width: 520px;
     height: 519px;
     background-color: #fff;
-    // .carousel {
-    //   width: 520px;
-    //   height: 280px;
-    //   img {
-    //     width: 520px;
-    //     height: 280px;
-    //     border-radius: 12px;
-    //   }
-    // }
+
     .swiper {
-      // width: 100%;
-      // height: 100%;
       width: 520px;
       height: 280px;
+
       .swiper-slide {
         text-align: center;
         font-size: 18px;
@@ -422,43 +413,52 @@ a {
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-
         img {
           display: block;
-          // width: 100%;
-          // height: 100%;
           width: 520px;
           height: 280px;
+          border-radius: 10px;
           object-fit: cover;
         }
       }
     }
+
     .carsolus-b {
       width: 520px;
       height: 235px;
       box-sizing: border-box;
-      padding-top: 35px;
-      position: relative;
-      div {
-        > img {
-          width: 20px;
-          height: 30px;
+      padding-top: 30px;
+      .swiper {
+        width: 520px;
+        height: 235px;
+        .swiper-wrapper {
+          width: 520px;
+          height: 235px;
+          .swiper-slide {
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            img {
+              display: block;
+              width: 256px;
+              height: 200px;
+              border-radius: 12px;
+              object-fit: cover;
+            }
+          }
         }
-        &:nth-child(1) {
-          position: absolute;
-          top: 139px;
-          left: 0;
-        }
-        &:nth-child(4) {
-          position: absolute;
-          top: 139px;
-          right: 0;
-        }
-      }
-      img {
-        width: 256px;
-        height: 200px;
-        border-radius: 12px;
       }
     }
   }
@@ -600,8 +600,8 @@ a {
     margin-right: 12px;
     margin-bottom: 13px;
     float: left;
-    &:nth-child(6),
-    &:nth-child(11) {
+    &:nth-child(5),
+    &:nth-child(10) {
       margin-right: 0;
     }
     img {
@@ -654,8 +654,8 @@ a {
     margin-bottom: 30px;
     float: left;
     position: relative;
-    &:nth-child(6),
-    &:nth-child(11) {
+    &:nth-child(5),
+    &:nth-child(10) {
       margin-right: 0;
     }
     .biaoq {
