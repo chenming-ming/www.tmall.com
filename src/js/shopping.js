@@ -2,7 +2,13 @@ import $ from '../js/lib/jquery.esm.js'
 import cookie from './lib/cookie.js'
 
 let shop = cookie.get('shop')
+<<<<<<< HEAD
 shop = JSON.parse(shop)
+=======
+
+shop = JSON.parse(shop)
+
+>>>>>>> refs/remotes/origin/master
 let id = shop.map((el) => el.id).join()
 
 $.ajax({
@@ -12,11 +18,55 @@ $.ajax({
   dataType: 'json',
 })
   .then((res) => {
+<<<<<<< HEAD
     let template = ''
     res.forEach((el, i) => {
       let pic = JSON.parse(el.picture)
       let current = shop.filter((elm) => elm.id === el.id)
       template += `
+=======
+    // let template = ''
+    // let template1 = ''
+    // let template2 = ''
+    // let template3 = ''
+    // let template4 = ''
+    // let template5 = ''
+    let template6 = ''
+
+    res.forEach((el, i) => {
+      let pic = JSON.parse(el.picture)
+
+      let current = shop.filter((elm) => elm.id === el.id)
+
+      // template += `
+      //       <img src="./${pic[0].src}" alt="" class="itempic J_ItemImg" style="display:inline-block;width:80px;height:80px;">
+      //       `
+      // template1 += `
+      //       ${el.title}
+      //       `
+      // template2 += `
+      //       <div class="price-line"><em class="price-original">￥288.00</em></div>
+      //       <div class="price-line"><em class="J_Price price-now" tabindex="0">${(+el.price.substring(1)).toFixed(
+      //         2
+      //       )}</em></div>
+      //       `
+      // template3 += `
+      //       <input type="number" value="${current[0].num}" min="1" class="text text-amount J_ItemAmount" data-max="129" data-now="${current[0].num}" autocomplete="off">
+      //       `
+      // template4 += `
+      //       <a title="移入收藏夹" class="btn-fav J_Fav J_MakePoint" data-point-url="//www.atpanel.com/jsclick?cache=16559696405081&amp;mycart=collect" href="#">移入收藏夹</a>
+      //       <a href="javascript:;" data-point-url="//www.atpanel.com/jsclick?cache=16559696405082&amp;cartlist=delete" class="removeitem J_Del J_MakePoint" data-id="${el.id}">删除</a>
+      //       `
+      // template5 += `
+      //       <div class="td-inner"><em tabindex="0" class="J_ItemSum number">${(
+      //         +el.price.substring(1) * current[0].num
+      //       ).toFixed(2)}</em>
+      //           <div class="J_ItemLottery"></div>
+      //           <div class="weight">进口税:商品已包税</div>
+      //       </div>
+      //       `
+      template6 += `
+>>>>>>> refs/remotes/origin/master
       <div id="J_Cart" class="cart">
       <div id="J_FilterBar" class="cart-filter-bar"><span id="J_CartSwitch" class="switch-cart">购物车（全部2）</span>
         <div class="cart-sum">
@@ -71,13 +121,21 @@ $.ajax({
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> refs/remotes/origin/master
         <div id="J_OrderList" data-spm="1997196601">
           <div id="J_OrderHolder_s_2206604872698_1" style="height: auto;">
             <div id="J_Order_s_2206604872698_1" class="J_Order clearfix order-body">
               <div class="J_ItemHead shop clearfix">
                 <div class="shop-info">
+<<<<<<< HEAD
                   <div class="cart-checkbox">
+=======
+                  <div class="cart-checkbox ">
+>>>>>>> refs/remotes/origin/master
                     <input class="J_CheckBoxShop" id="J_CheckShop_s_2206604872698_1" type="checkbox" name="orders[]"
                       value="s_2206604872698_1">
                     <label for="J_CheckShop_s_2206604872698_1">
@@ -247,7 +305,11 @@ $.ajax({
                 <div class="float-bar-right">
                   <div id="J_ShowSelectedItems" class="amount-sum">
                     <span class="txt">已选商品</span>
+<<<<<<< HEAD
                     <em id="J_SelectedItemsCount">0</em>
+=======
+                    <em id="J_SelectedItemsCount">${current[0].num}</em>
+>>>>>>> refs/remotes/origin/master
                     <span class="txt">件</span>
                     <div class="arrow-box">
                       <span class="selected-items-arrow"></span>
@@ -260,7 +322,11 @@ $.ajax({
                   <div class="pipe"></div>
                   <div class="price-sum"><span class="txt">合计（不含运费）：</span><strong class="price"><em id="J_Total"><span
                           class="total-symbol">&nbsp;</span>
+<<<<<<< HEAD
                           0.00
+=======
+                          ${(+el.price.substring(1) * current[0].num).toFixed(2)}
+>>>>>>> refs/remotes/origin/master
                           </em></strong>
                   </div>
                   <div class="btn-area"><a href="javascript:void(0)" id="J_Go" class="submit-btn submit-btn-disabled"
@@ -275,7 +341,17 @@ $.ajax({
       `
     })
 
+<<<<<<< HEAD
     $('.container').html(template)
+=======
+    // $('.M_GoldReport').html(template)
+    // $('.J_MakePointt').html(template1)
+    // $('.price-content').html(template2)
+    // $('.M_Minus').html(template3)
+    // $('.td-innerre').html(template4)
+    // $('.td-sum').html(template5)
+    $('.container').html(template6)
+>>>>>>> refs/remotes/origin/master
 
     // $('.cart-checkbox #J_SelectAllCbx1').on('change', function () {
     //   $('.j-checkbox, .checkall').prop('checked', $(this).prop('checked'))
